@@ -53,7 +53,7 @@ getedit : function(request, response,next){
             console.log(err);
         }
         else {
-            response.render('products/edit', {
+            response.render('Products/edit', {
                 title: 'Product Details',
                 product: product,
                 user: request.user
