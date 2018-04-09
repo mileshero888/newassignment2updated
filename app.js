@@ -29,7 +29,7 @@ mongoose.connect(config.db)
   .catch((err) => console.error(err));
 
 //Configuration for View Engine Selections & Views Directory Setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
