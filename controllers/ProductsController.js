@@ -23,7 +23,7 @@ Index : function(request, response,next){
 
 // GET: /products/add - Add New Product
 getadd : function(request, response,next){
-    response.render('add', {
+    response.render('Products/add', {
         title: 'Add a New Product',
         user: request.user
     });
